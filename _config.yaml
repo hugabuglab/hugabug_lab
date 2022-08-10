@@ -2,11 +2,11 @@
 
 # site properties and page defaults
 title: The Human Molecular Ecology Lab
-description: 
+description: Sequencing microbial DNA to understand human disease
 logo: images/logo.svg
 header: images/background.jpg
 footer: images/background.jpg
-baseurl: https://luhugerth.github.io/hugabug
+baseurl: /hugabug
 
 # site social media and other links
 links:
