@@ -44,7 +44,7 @@ Uppsala, Sweden"
 {%
   include figure.html
   image="images/photo.jpg"
-  caption="A stock photo until I have a better one
+  caption="A stock photo until I have a better one"
 %}
 {% endcapture %}
 {% capture col2 %}
