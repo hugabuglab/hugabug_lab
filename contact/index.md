@@ -33,11 +33,11 @@ We are located in the [Uppsala Biomedical Center]("https://www.bmc.uu.se/?langua
 
 {% include section.html %}
 
-### <i class="fas fa-mail-bulk"></i>Mailing Address
+### <i class="fas fa-mail-bulk"></i>Visiting Address
 
-BMC, Husargatan 3 
-"C8:3, entrance C7"
-Uppsala, Sweden
+"BMC, Husargatan 3 
+C8:3, entrance C7
+Uppsala, Sweden"
 {:.center}
 
 {% capture col1 %}
