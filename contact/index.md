@@ -36,7 +36,7 @@ We are located in the [Uppsala Biomedical Center]("https://www.bmc.uu.se/?langua
 ### <i class="fas fa-mail-bulk"></i>Mailing Address
 
 BMC, Husargatan 3 
-C8:3, entrance C7
+"C8:3, entrance C7"
 Uppsala, Sweden
 {:.center}
 
