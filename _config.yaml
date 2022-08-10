@@ -6,13 +6,13 @@ description: Sequencing microbial DNA to understand human disease
 logo: images/logo.svg
 header: images/background.jpg
 footer: images/background.jpg
-baseurl: "/hugabug"
+baseurl: /hugabug
 
 # site social media and other links
 links:
   email: luisa.hugerth@scilifelab.se
   google-scholar: Luisa W. Hugerth
-  twitter: @hugabug
+  twitter: @hugabug_lab
 
 ### advanced settings
 
