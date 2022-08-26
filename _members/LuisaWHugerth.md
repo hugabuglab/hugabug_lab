@@ -1,6 +1,6 @@
 ---
-name: Upton O. Goode
-image: images/member.jpg
+name: Luisa W. Hugerth
+image: images/Luisa.jpg
 description: Assistant Professor
 role: pi
 aliases:
