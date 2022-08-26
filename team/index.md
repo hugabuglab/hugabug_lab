@@ -38,11 +38,11 @@ Our work is made possible by funding from The Knut and Alice Wallenberg Foundati
   include gallery.html
   style="square"
 
-  image1="images/photo.jpg"
+  image1="images/kaw.jpg"
   link1="https://kaw.wallenberg.org/en"
   tooltip1="KAW Foundation"
 
-  image2="images/photo.jpg"
+  image2="images/scilifelab.jpg"
   link2="https://www.scilifelab.se/data-driven/"
   tooltip2="SciLifeLab"
 
