@@ -25,6 +25,8 @@ We will very soon be recruiting fully-funded PhD students and postdocs, stay tun
 
 #### We welcome project workers with any level of experience
 
+[**Open PhD position**](https://www.uu.se/en/about-uu/join-us/details/?positionId=547571), apply by October 31st!
+
 Bachelor and master students who combine a biological background with basic programming skills are always welcome to apply. Inquiries by email.
 
 {% include section.html %}
