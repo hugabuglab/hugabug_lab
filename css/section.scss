@@ -35,8 +35,7 @@ body {
   }
 
   section:nth-of-type(even) {
-    background: $white;
-    opacity: 0.3
+    background: rgba(255, 255, 255, 0);
   }
 
   section:nth-of-type(even) {
