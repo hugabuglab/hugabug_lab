@@ -43,15 +43,15 @@ Uppsala, Sweden"
 {% capture col1 %}
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="A stock photo until I have a better one"
+  image="images/TeamPhoto.jpg"
+  caption="First group photo"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Yes, the same stock photo again"
+  image="images/TeamPhoto.jpg"
+  caption="Yes, the first group photo again"
 %}
 {% endcapture %}
 {% include two-col.html col1=col1 col2=col2 %}
