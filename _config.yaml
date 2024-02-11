@@ -3,9 +3,9 @@
 # site properties and page defaults
 title: The Human Molecular Ecology Lab
 description: Sequencing microbial DNA to understand human disease
-logo: images/logo.svg
-header: images/background.jpg
-footer: images/background.jpg
+logo: images/flora_cells_dream.jpg
+header: images/Background.jpeg
+footer: images/Background.jpeg
 baseurl: "/hugabug_lab"
 
 # site social media and other links
