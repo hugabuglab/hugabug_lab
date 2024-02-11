@@ -16,9 +16,9 @@ Humans are covered in microbes, inside and out. Can't live with them, can't live
 %}
 {:.center}
 
-<!-- {% include section.html full=true %} -->
+{% include section.html full=true %}
 
 <!-- {% include banner.html image="images/flora_cells_dream.jpg" %}
 {:.center} -->
 
-{% include section.html %}
+<!-- {% include section.html %} -->
