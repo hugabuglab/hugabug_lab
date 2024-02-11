@@ -18,8 +18,8 @@ nav:
 ## News
 
 <!-- Twitter embeds from https://publish.twitter.com/ -->
-
-<a class="twitter-timeline" data-width="400" data-height="400" href="https://twitter.com/hugabug_lab">Tweets by GreeneScientist</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{:.center}
+<a class="twitter-timeline" data-width="600" data-height="400" href="https://twitter.com/hugabug_lab">Tweets by GreeneScientist</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {:.center}
 
 <a href="https://twitter.com/hugabug_lab" class="twitter-follow-button" data-show-count="false">Follow @HugaBug_Lab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
