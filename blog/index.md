@@ -18,7 +18,7 @@ nav:
 ## News
 
 <!-- Twitter embeds from https://publish.twitter.com/ -->
-{:.center}
+
 <a class="twitter-timeline" data-width="600" data-height="400" href="https://twitter.com/hugabug_lab">Tweets by GreeneScientist</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {:.center}
 
