@@ -28,13 +28,14 @@ body {
     padding: 60px 40px; // fallback
     padding: 60px Max(40px, calc((100% - #{$page}) / 2));
     text-align: center;
-    background-color: $white;
-    opacity: 0.1;
 
     &[data-full="true"] {
       padding: 0;
     }
   }
+
+  background-color: rgba(255, 255, 255, 0.2); // Adjust the alpha value for transparency
+    opacity: 0.2; // Optional: Set the overall opacity of the content box
 
   section:nth-of-type(even) {
     background: $white;
