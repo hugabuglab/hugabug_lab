@@ -11,7 +11,7 @@ Humans are covered in microbes, inside and out. Can't live with them, can't live
   type="github"
   icon=""
   text="GitHub"
-  link="/BangzhuoTongUU"
+  link="/luhugerth"
   style="button"
 %}
 {:.center}
