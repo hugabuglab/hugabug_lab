@@ -28,6 +28,8 @@ body {
     padding: 60px 40px; // fallback
     padding: 60px Max(40px, calc((100% - #{$page}) / 2));
     text-align: center;
+    background-color: $white;
+    opacity: 0.1;
 
     &[data-full="true"] {
       padding: 0;
@@ -35,7 +37,7 @@ body {
   }
 
   section:nth-of-type(even) {
-    background-color: rgba(255, 255, 255, 0);
+    background: $white;
   }
 
   section:nth-of-type(even) {
