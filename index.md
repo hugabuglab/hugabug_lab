@@ -2,9 +2,9 @@
 title: Home
 ---
 
-# If you can beat'em, study'em!
+<span style="font-size: 25px;"> # If you can beat'em, study'em! </span>
 
-Humans are covered in microbes, inside and out. Can't live with them, can't live without them. We study the human microbiome to understand, predict and prevent disease. Our main focus is women's health, including recurring infections, interactions with female sex hormones and pregnancy.
+<span style="font-size: 16px;"> Humans are covered in microbes, inside and out. Can't live with them, can't live without them. We study the human microbiome to understand, predict and prevent disease. Our main focus is women's health, including recurring infections, interactions with female sex hormones and pregnancy. </span>
 
 {%
   include link.html
@@ -16,9 +16,9 @@ Humans are covered in microbes, inside and out. Can't live with them, can't live
 %}
 {:.center}
 
-{% include section.html background=true %}
+{% include section.html full=true %}
 
 {% include banner.html image="images/Banner1.png" %}
 {:.center}
 
-<!-- {% include section.html %} -->
+{% include section.html %}
