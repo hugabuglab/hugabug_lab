@@ -7,15 +7,13 @@ nav:
 
 # <i class="fas fa-users"></i>Team
 
-We will very soon be recruiting fully-funded PhD students and postdocs, stay tuned!
-
 {% include section.html %}
 
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="role: pi"
+  <!-- filters="role: pi" -->
 %}
 {:.center}
 
@@ -24,8 +22,6 @@ We will very soon be recruiting fully-funded PhD students and postdocs, stay tun
 ## Join
 
 #### We welcome project workers with any level of experience
-
-[**Open PhD position**](https://www.uu.se/en/about-uu/join-us/details/?positionId=547571), apply by October 31st!
 
 Bachelor and master students who combine a biological background with basic programming skills are always welcome to apply. Inquiries by email.
 
