@@ -2,7 +2,7 @@
 
 <h1 align="center">Lab Website Template</h1>
 <p align="center">
-<img height="200" src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/favicons/share-thumbnail.jpeg?raw=true" alt="hugabug_lab">
+<img height="200" src="favicons/share-thumbnail.jpeg" alt="hugabug_lab">
 </p>
 An easy-to-use, flexible website template for labs, including automatic citations, GitHub tag imports, pre-built components, and more.
 Spend less time reinventing the wheel and more time running your lab.
