@@ -54,11 +54,11 @@ Uppsala, Sweden"
   caption="Group photo at SciLife UU"
 %}
 {% endcapture %}
-{% capture col3 %}
+{% capture col2 %}
 {%
   include figure.html
   image="images/scilife_team_photo2.jpg"
   caption="Group photo at SciLife UU"
 %}
 {% endcapture %}
-{% include two-col.html col1=col1 col2=col2 col3=col2 %}
+{% include two-col.html col1=col1 col2=col2 %}
