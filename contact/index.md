@@ -50,8 +50,15 @@ Uppsala, Sweden"
 {% capture col2 %}
 {%
   include figure.html
-  image="images/TeamPhoto.jpg"
-  caption="Yes, the first group photo again"
+  image="images/scilife_team_photo1.jpg"
+  caption="Group photo at SciLife UU"
 %}
 {% endcapture %}
-{% include two-col.html col1=col1 col2=col2 %}
+{% capture col3 %}
+{%
+  include figure.html
+  image="images/scilife_team_photo2.jpg"
+  caption="Group photo at SciLife UU"
+%}
+{% endcapture %}
+{% include three-col.html col1=col1 col2=col2 col3=col3 %}
