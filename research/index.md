@@ -5,7 +5,7 @@ nav:
   tooltip: Published works
 ---
 
-<!-- {% include section.html %} -->
+{% include section.html %}
 # <i class="fas fa-microscope"></i>Research
 The goal of our lab is to understand how failures in microbe-microbe or host-microbe communication lead to disease in humans. To do this, our main tool is high-throughput DNA sequencing, to profile microbes from different body parts, including viruses and fungi. This approach is always complemented with extensive questionnaires on the background and health state of participants. Other biological measures, such as serum metabolites, help separate local from systemic effects. We try to always work closely with clinical collaborators, to decrease the distance between basic and applied science.
 
