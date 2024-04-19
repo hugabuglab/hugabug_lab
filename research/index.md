@@ -20,7 +20,7 @@ The Biology, Affect, Stress, Imaging and Cognition (BASIC) study is a population
 {% include figure.html image="images/BASIC_icon.png" %}
 {:.center}
 
-# <i class="fas fa-microscope"></i>Publications
+# <i class="far fa-newspaper"></i>Publications
 
 {% include search-box.html %}
 
