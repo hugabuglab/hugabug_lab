@@ -5,7 +5,6 @@ nav:
   tooltip: Published works
 ---
 
-{% include section.html %}
 # <i class="fas fa-microscope"></i>Research
 The goal of our lab is to understand how failures in microbe-microbe or host-microbe communication lead to disease in humans. To do this, our main tool is high-throughput DNA sequencing, to profile microbes from different body parts, including viruses and fungi. This approach is always complemented with extensive questionnaires on the background and health state of participants. Other biological measures, such as serum metabolites, help separate local from systemic effects. We try to always work closely with clinical collaborators, to decrease the distance between basic and applied science.
 
@@ -20,6 +19,7 @@ Outside of pregnancy, the human female microbiome is also an interesting study o
 {% include figure_half_half.html image="images/BASIC_icon.png" %}
 {:.center}
 
+{% include section.html %}
 The Biology, Affect, Stress, Imaging and Cognition (BASIC) is a population-based prospective study conducted by the Women's Clinic, the Academic Hospital and the Department of Women's and Children's Health at Uppsala University.  
 
 The aim of the study is to follow women's experience during and after pregnancy, and to try to explain why some women do not feel well during pregnancy or after giving birth. The purpose of this is to be able to offer effective and timely help to women who feel unwell.
@@ -28,7 +28,7 @@ All women who are booked during routine pregnancy for routine ultrasound at the 
 
 We aimed at interpreting the influence from perinatal depression symptom on gut microbiota with questionnaire data and whole-genome shotgun metagenomics data from the BASIC participants. Also, we would try to predict the likelihood of being postpartum depressed on the same cohort.
 
-This project is tightly collaborated with [Akademiska sjukhuset](https://www.akademiska.se/) as well as [mamma till mamma](https://mammatillmamma.com/) as well as [CTMR](https://ki.se/en/mtc/centre-for-translational-microbiome-research-ctmr) at Karolinska Institutet.
+This project is tightly collaborated with [Akademiska sjukhuset](https://www.akademiska.se/), [mamma till mamma](https://mammatillmamma.com/) as well as [CTMR](https://ki.se/en/mtc/centre-for-translational-microbiome-research-ctmr) at Karolinska Institutet.
 {:.left}
 
 # <i class="far fa-newspaper"></i>Publications
