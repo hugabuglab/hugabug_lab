@@ -19,7 +19,7 @@ Outside of pregnancy, the human female microbiome is also an interesting study o
 {% include figure_half_half.html image="images/BASIC_icon.png" %}
 {:.center}
 
-{% include section.html %}
+{:.left}
 The Biology, Affect, Stress, Imaging and Cognition (BASIC) is a population-based prospective study conducted by the Women's Clinic, the Academic Hospital and the Department of Women's and Children's Health at Uppsala University.  
 
 The aim of the study is to follow women's experience during and after pregnancy, and to try to explain why some women do not feel well during pregnancy or after giving birth. The purpose of this is to be able to offer effective and timely help to women who feel unwell.
