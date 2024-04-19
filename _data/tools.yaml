@@ -1,7 +1,7 @@
 - title: OptiVag
   subtitle: tools and databases
   # group: featured
-  image: images/Bacteria_lime_color.png
+  image: images/Bacterial_lime_color.png
   link: https://github.com/hugabuglab/optivag
   description: Tools and curated databases for annotating vaginal metagenomes
   repo: hugabuglab/optivag
