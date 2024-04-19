@@ -1,10 +1,19 @@
 - title: OptiVag
   subtitle: tools and databases
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/ctmrbio/optivag
-  description: Tools and curated databases for annotating vaginal metagenomesw
-  repo: greenelab/lab-website-template
+  # group: featured
+  image: images/Bacteria_lime_color.png
+  link: https://github.com/hugabuglab/optivag
+  description: Tools and curated databases for annotating vaginal metagenomes
+  repo: hugabuglab/optivag
   tags:
     - resource
 
+- title: Valody
+  subtitle: tools and databases
+  # group: featured
+  image: images/Valody_Logo.png
+  link: https://github.com/hugabuglab/valody
+  description: A tool to assign VAginaL DYnamic categories to individuals based on their VALENCIA CST assignments
+  repo: hugabuglab/valody
+  tags:
+    - resource
