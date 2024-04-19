@@ -4,7 +4,7 @@ image: images/Anusha1.jpg
 description: PhD student
 role: phd
 aliases:
-  - Ben
+  - Anusha
 links:
   orcid: 0000-0001-6622-7337
   email: anusha.antony [at] imbim.uu.se

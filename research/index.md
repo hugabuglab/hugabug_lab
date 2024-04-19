@@ -13,6 +13,13 @@ One of our main focuses is pregnancy and neonatal outcomes. The microbiome is pa
 Outside of pregnancy, the human female microbiome is also an interesting study object. From an ecological perspective, the vaginal microbiome is a semi-open environment, being subjected both to external pressures such as intercourse and to cyclic changes related to the menstrual cycle. This makes it an interesting model system for microbial time-series analysis and tool development. At the same time, understanding what factors contribute to a healthy and stable vaginal microbiome may be a path towards decreasing the burden of recurring urogenital infections such as candidiasis, bacterial vaginosis and urinary tract infections.
 
 {% include section.html %}
+# <i class="fas fa-microscope"></i>Ongoing Projects
+## BASIC[https://www.basicstudie.se/]
+The Biology, Affect, Stress, Imaging and Cognition (BASIC) study is a population-based, prospective cohort study at the Department of Obstetrics and Gynaecology at Uppsala University Hospital. In the county of Uppsala, all pregnant women are referred to Uppsala University Hospital for a routine ultrasound examination at gestational week 16–18, and 97% of women choose to attend. Around 4200 women give birth at Uppsala University Hospital per year. Women listed for routine ultrasound examination are invited to the BASIC study.
+
+{% include figure.html image="images/BASIC_icon.png" %}
+{:.center}
+
 
 {% include search-box.html %}
 

@@ -4,7 +4,7 @@ image: images/BangzhuoTong.jpg
 description: PhD Student
 role: phd
 aliases:
-  - Ben
+  - Bangzhuo
 links:
   orcid: 0000-0002-5463-5699
   email: bangzhuo.tong [at] imbim.uu.se
