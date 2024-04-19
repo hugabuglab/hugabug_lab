@@ -20,11 +20,30 @@
   {%- assign rich = true -%}
 {%- endif -%}
 
+{%- assign placeholder = "images/placeholder.svg" | relative_url -%}
+
 <div class="citation" data-style="{{ include.style }}">
+  {%- assign id = citation.id | default: "" -%}
+  {%- assign link = citation.link | default: "" -%}
+  {%- assign image = citation.image | default: "" -%}
+  {%- if rich -%}
+    <div class="citation_image">
+      <a href="{{ link }}">
+        <img
+          src="{{ image | relative_url }}"
+          onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
+          data-tooltip="{{ id }}"
+          loading="lazy"
+          alt="Citation thumbnail"
+        >
+      </a>
+    </div>
+  {%- endif -%}
+
   <div class="citation_text">
     {%- assign title = citation.title | default: "" -%}
     <div class="citation_title">
-      <a href="{{ citation.link }}">
+      <a href="{{ link }}">
         {{ title }}
       </a>
     </div>
@@ -44,6 +63,7 @@
     </div>
 
     {%- if rich -%}
+
       {%- assign tags = citation.tags | default: emptyarray -%}
       {%- assign repo = citation.repo | default: "" -%}
       {%- assign extra-links = citation.extra-links | default: emptyarray -%}
