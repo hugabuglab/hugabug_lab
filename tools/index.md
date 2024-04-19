@@ -15,7 +15,7 @@ Tools developed by Luisa Hugerth.
 
 {% include list.html component="card" data="tools" filters="group: featured" %}
 
-<!-- {% include section.html %} -->
+{% include section.html %}
 
 <!-- ## More
 
