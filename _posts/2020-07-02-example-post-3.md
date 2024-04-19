@@ -1,7 +1,7 @@
 ---
-title: Place Holder
-tags: none
-author: bztong
+title: Our group webpage was updated!
+tags: GroupNews
+author: Bangzhuo Tong
 member: none
 ---
-For now, just a place holder for future news
+Our group webpage was updated, feel free to give feedback to Ben!
