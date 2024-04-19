@@ -14,11 +14,14 @@ Outside of pregnancy, the human female microbiome is also an interesting study o
 
 {% include section.html %}
 # <i class="fas fa-microscope"></i>Ongoing Projects
+
 ## [BASIC](https://www.basicstudie.se/)
+
+{% include figure_half_half.html image="images/BASIC_icon.png" %}
+{:.center}
+
 The Biology, Affect, Stress, Imaging and Cognition (BASIC) study is a population-based, prospective cohort study at the Department of Obstetrics and Gynaecology at Uppsala University Hospital. In the county of Uppsala, all pregnant women are referred to Uppsala University Hospital for a routine ultrasound examination at gestational week 16–18, and 97% of women choose to attend. Around 4200 women give birth at Uppsala University Hospital per year. Women listed for routine ultrasound examination are invited to the BASIC study.
 
-{% include figure_half.html image="images/BASIC_icon.png" %}
-{:.center}
 
 # <i class="far fa-newspaper"></i>Publications
 
