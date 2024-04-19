@@ -18,7 +18,7 @@ nav:
 
 {% include section.html %}
 
-## Join
+# Join
 
 #### We welcome project workers with any level of experience
 
@@ -26,7 +26,7 @@ Bachelor and master students who combine a biological background with basic prog
 
 {% include section.html %}
 
-## Funding
+# Funding
 
 Our work is made possible by funding from The Knut and Alice Wallenberg Foundation through the Data-Driven Life Sciences fellows programme.
 {:.center}

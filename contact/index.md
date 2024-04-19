@@ -19,6 +19,7 @@ We are located in the [Uppsala Biomedical Center]("https://www.bmc.uu.se/?langua
   link="luisa.hugerth@scilifelab.se"
   style="button"
 %}
+{:.center}
 
 {%
   include link.html
