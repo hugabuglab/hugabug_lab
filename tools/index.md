@@ -13,9 +13,10 @@ Tools developed by Luisa Hugerth.
 
 {% include section.html %}
 
-{% include list.html component="card" data="tools" filters="group: featured" %}
+<!-- {% include list.html component="card" data="tools" filters="group: featured" %} -->
+{% include list.html component="card" data="tools"%}
 
-{% include section.html %}
+<!-- {% include section.html %} -->
 
 <!-- ## More
 
