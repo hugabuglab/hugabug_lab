@@ -1,11 +1,11 @@
 ---
-title: Blog
+title: News & Updates
 nav:
   order: 4
   tooltip: Musings and miscellany
 ---
 
-# <i class="fas fa-feather-alt"></i>Blog
+# Updates
 
 {% include section.html %}
 
@@ -15,7 +15,7 @@ nav:
 
 {% include section.html %}
 
-## News
+# News
 
 <!-- Twitter embeds from https://publish.twitter.com/ -->
 

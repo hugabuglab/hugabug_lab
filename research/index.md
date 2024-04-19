@@ -17,17 +17,17 @@ Outside of pregnancy, the human female microbiome is also an interesting study o
 ## [BASIC](https://www.basicstudie.se/)
 
 {% include figure_half_half.html image="images/BASIC_icon.png" %}
-{:.left}
 
+{:.left}
 The Biology, Affect, Stress, Imaging and Cognition (BASIC) is a population-based prospective study conducted by the Women's Clinic, the Academic Hospital and the Department of Women's and Children's Health at Uppsala University.  
 
 The aim of the study is to follow women's experience during and after pregnancy, and to try to explain why some women do not feel well during pregnancy or after giving birth. The purpose of this is to be able to offer effective and timely help to women who feel unwell.
 
 All women who are booked during routine pregnancy for routine ultrasound at the Academic Hospital are offered to participate in the study. The study consists of different parts. Every woman who participates chooses which parts she wants to participate in. You can participate in how many or how few parts at all. The study began in September 2009 and has so far recruited over 6,000 women.
 
-We aimed at interpreting the influence from perinatal depression symptom on gut microbiota with questionnaire data and whole-genome shotgun metagenomics data from the BASIC participants. Also, we would try to predict the likelihood of being postpartum depressed on the same cohort.
+Our group aimed at interpreting the influence from perinatal depression symptom on gut microbiota with questionnaire data and whole-genome shotgun metagenomics data from the BASIC participants. Also, we would try to predict the likelihood of being postpartum depressed on the same cohort.
 
-This project is tightly collaborated with [Akademiska sjukhuset](https://www.akademiska.se/), [mamma till mamma](https://mammatillmamma.com/) as well as [CTMR](https://ki.se/en/mtc/centre-for-translational-microbiome-research-ctmr) at Karolinska Institutet.
+This project is tightly collaborated with [Akademiska sjukhuset](https://www.akademiska.se/) as well as [CTMR](https://ki.se/en/mtc/centre-for-translational-microbiome-research-ctmr) at Karolinska Institutet.
 
 # <i class="far fa-newspaper"></i>Publications
 
