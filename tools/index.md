@@ -9,7 +9,7 @@ nav:
 
 Tools developed by Luisa Hugerth.
 
-<!-- {% include search-info.html %} -->
+{% include search-info.html %}
 
 <!-- {% include section.html %} -->
 
