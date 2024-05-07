@@ -17,7 +17,8 @@ header {
   box-shadow: $shadow;
 
   & * {
-    font-family: $sans;
+    // font-family: $sans;
+    font-family: $serif;
   }
 
   .logo_row {
