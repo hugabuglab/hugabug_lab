@@ -9,11 +9,11 @@ nav:
 
 {% include section.html %}
 
-<!-- {% include search-info.html %} -->
+{% include search-info.html %}
 
 {% include list.html data="posts" component="post-excerpt" %}
 
-<!-- {% include section.html %} -->
+{% include section.html %}
 
 # News
 
