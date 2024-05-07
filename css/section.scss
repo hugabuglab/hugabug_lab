@@ -15,7 +15,8 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  font-family: $serif;
+  // font-family: $serif;
+  font-family: $sans;
 
   main {
     display: flex;
