@@ -7,7 +7,7 @@ nav:
 
 # Updates
 
-<!-- {% include section.html %} -->
+{% include section.html %}
 
 {% include search-info.html %}
 
