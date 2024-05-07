@@ -1,2 +1,49 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM SOURCES.YAML (AND ELSEWHERE)
 # See https://github.com/greenelab/lab-website-template/wiki/Citations
+
+- id: doi:10.1128/AEM.01403-14
+  title: DegePrime, a Program for Degenerate Primer Design for Broad-Taxonomic-Range
+    PCR in Microbial Ecology Studies
+  authors:
+  - Luisa W. Hugerth
+  - Hugo A. Wefer
+  - Sverker Lundin
+  - Hedvig E. Jakobsson
+  - Mathilda Lindberg
+  - Sandra Rodin
+  - Lars Engstrand
+  - Anders F. Andersson
+  publisher: Applied and Environmental Microbiology
+  date: '2014-08-15'
+  link: https://doi.org/f22fj8
+  _cache: e23b53ffc1c2bd8f0f6cec9367ec9f0772d2a1bf13906050a4e0b11db1e0daa3
+- id: doi:10.3389/fmicb.2017.01561
+  title: 'Analysing Microbial Community Composition through Amplicon Sequencing: From
+    Sampling to Hypothesis Testing'
+  authors:
+  - Luisa W. Hugerth
+  - Anders F. Andersson
+  publisher: Frontiers in Microbiology
+  date: '2017-09-04'
+  link: https://doi.org/gcjn2v
+  _cache: 4e984d6c6c49faf3edde0f815aa98df576e908c60586436d552ccb265154ee7c
+- id: doi:10.3389/fmicb.2017.00738
+  title: Colonization and Succession within the Human Gut Microbiome by Archaea, Bacteria,
+    and Microeukaryotes during the First Year of Life
+  authors:
+  - Linda Wampach
+  - Anna Heintz-Buschart
+  - Angela Hogan
+  - Emilie E. L. Muller
+  - Shaman Narayanasamy
+  - Cedric C. Laczny
+  - Luisa W. Hugerth
+  - Lutz Bindl
+  - Jean Bottu
+  - Anders F. Andersson
+  - Carine de Beaufort
+  - Paul Wilmes
+  publisher: Frontiers in Microbiology
+  date: '2017-05-02'
+  link: https://doi.org/f99p8j
+  _cache: 5f0594f1a99b7b734b54e4f90d0f1c1ab931d532e6c9c615a9dd742c814ee5b7
