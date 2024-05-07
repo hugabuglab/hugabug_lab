@@ -25,7 +25,7 @@ The aim of the study is to follow women's experience during and after pregnancy,
 
 All women who are booked during routine pregnancy for routine ultrasound at the Academic Hospital are offered to participate in the study. The study consists of different parts. Every woman who participates chooses which parts she wants to participate in. You can participate in how many or how few parts at all. The study began in September 2009 and has so far recruited over 6,000 women.
 
-Our group aimed at interpreting the influence from perinatal depression symptom on gut microbiota with questionnaire data and whole-genome shotgun metagenomics data from the BASIC participants. Also, we would try to predict the likelihood of being postpartum depressed on the same cohort.
+Our group aimed at interpreting the influence from perinatal depression symptom on gut microbiota with questionnaire data and whole-genome shotgun metagenomics data from the BASIC participants.
 
 This project is tightly collaborated with [Akademiska sjukhuset](https://www.akademiska.se/) as well as [CTMR](https://ki.se/en/mtc/centre-for-translational-microbiome-research-ctmr) at Karolinska Institutet.
 
