@@ -7,8 +7,8 @@ nav:
 
 # <i class="fas fa-envelope"></i>Contact
 
-Our lab is part of the [Institution for Medical Biochemistry and and Microbiology]("https://www.imbim.uu.se/"), and of [Science for Life Laboratory](www.scilifelab.se).
-We are located in the [Uppsala Biomedical Center]("https://www.bmc.uu.se/?languageId=1").
+Our lab is part of the [Institution for Medical Biochemistry and and Microbiology](https://www.imbim.uu.se/?languageId=1), and of [Science for Life Laboratory](www.scilifelab.se).
+We are located in the [Uppsala Biomedical Center](https://www.bmc.uu.se/?languageId=1).
 
 {%
   include link.html
