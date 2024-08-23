@@ -1,6 +1,6 @@
 ---
 name: Delaram Bameri
-image:
+image: images/Delaram.jpg
 description: Dentist (D.D.S), Research Assistant
 role: RA
 aliases:
