@@ -2,7 +2,7 @@
 name: Kyriakos Charalampous
 image: 
 description: Master's student
-role: msc student
+role: msc
 aliases:
   - Kyriakos
 links:
