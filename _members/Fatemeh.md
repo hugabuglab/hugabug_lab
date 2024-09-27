@@ -9,5 +9,5 @@ links:
   orcid: 0000-0002-0806-2287
   email: fatemeh.mohseni@stud.ki.se
   google scholar: https://scholar.google.com/citations?user=tpGxIcwAAAAJ&hl=en
-  linkedin: fatemeh-m-b3b41541/
+  linkedin: fatemeh-m-b3b41541
 ---
