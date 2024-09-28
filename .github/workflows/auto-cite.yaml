@@ -8,6 +8,9 @@ on:
     paths:
       - "_data/sources.yaml"
   pull_request:
+    branches:
+        - main
+        - Faruk_dev
     paths:
       - "_data/sources.yaml"
 
@@ -30,6 +33,11 @@ jobs:
         run:  python ./auto-cite/plugins/update_sources.py 
       - name: Build updated citations
         run: python ./auto-cite/auto-cite.py
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: "_data/sources.yaml"
+          commit_message: "Generate DOIs sources"
+          push_options: --force
       - name: Commit updated citations
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
