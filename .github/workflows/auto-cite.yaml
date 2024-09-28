@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - Faruk_dev
     paths:
       - "_data/sources.yaml"
   pull_request:
