@@ -1,10 +1,11 @@
 name: Auto Cite
 
 on:
+  workflow_dispatch:  # Add this line to enable manual triggers
   push:
     branches:
       - main
-      - ben_dev
+      - ben_dev  # Assuming this is your current branch
     paths:
       - "_data/sources.yaml"
   pull_request:
