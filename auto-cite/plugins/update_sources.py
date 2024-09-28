@@ -4,20 +4,12 @@ import requests
 import yaml
 from datetime import datetime
 import sys
-import urllib.parse
 
-def fetch_dois_by_author(author_name, from_date='2020-01-01', max_results=50):
-    base_url = "https://api.crossref.org/works"
-    
-    # Encode the author name properly
-    encoded_author = urllib.parse.quote(author_name)
-    
-    # Construct the query string
-    query = f'query.author="{encoded_author}"'
+def fetch_dois_by_orcid(orcid, from_date='2020-01-01', max_results=50):
+    base_url = f"https://api.crossref.org/works"
     
     params = {
-        'query': query,
-        'filter': f'from-pub-date:{from_date}',
+        'filter': f'orcid:{orcid},from-pub-date:{from_date}',
         'sort': 'published',
         'order': 'desc',
         'rows': max_results,
@@ -28,17 +20,17 @@ def fetch_dois_by_author(author_name, from_date='2020-01-01', max_results=50):
         response.raise_for_status()
         return response.json()['message']['items']
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching data for {author_name}: {e}")
+        print(f"Error fetching data for ORCID {orcid}: {e}")
         print(f"URL: {response.url}")
         print(f"Response content: {response.text}")
         return []
 
-def update_sources_yaml(authors, output_file='_data/sources.yaml'):
+def update_sources_yaml(orcids, output_file='_data/sources.yaml'):
     all_dois = set()
     
-    for author in authors:
-        print(f"Fetching DOIs for {author}...")
-        publications = fetch_dois_by_author(author)
+    for orcid in orcids:
+        print(f"Fetching DOIs for ORCID {orcid}...")
+        publications = fetch_dois_by_orcid(orcid)
         for pub in publications:
             if 'DOI' in pub:
                 all_dois.add(f"doi:{pub['DOI']}")
@@ -63,11 +55,11 @@ def update_sources_yaml(authors, output_file='_data/sources.yaml'):
     
     print(f"Added {len(new_dois)} new DOIs to {output_file}")
 
-# List of authors to search for
-authors = [
-    "Luisa W. Hugerth",
-    # Add more authors here
+# List of ORCIDs to search for
+orcids = [
+    "0000-0001-5432-1764",  # Luisa W. Hugerth's ORCID
+    # Add more ORCIDs here
 ]
 
 if __name__ == "__main__":
-    update_sources_yaml(authors)
+    update_sources_yaml(orcids)

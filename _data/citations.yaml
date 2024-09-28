@@ -1,49 +1,217 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM SOURCES.YAML (AND ELSEWHERE)
 # See https://github.com/greenelab/lab-website-template/wiki/Citations
 
-- id: doi:10.1128/AEM.01403-14
-  title: DegePrime, a Program for Degenerate Primer Design for Broad-Taxonomic-Range
-    PCR in Microbial Ecology Studies
+- id: doi:10.1101/2020.05.05.079996
+  title: Optimal protocols for sequence-based characterization of the human vaginal
+    microbiome
   authors:
   - Luisa W. Hugerth
-  - Hugo A. Wefer
-  - Sverker Lundin
-  - Hedvig E. Jakobsson
-  - Mathilda Lindberg
-  - Sandra Rodin
+  - Marcela Pereira
+  - Yinghua Zha
+  - Maike Seifert
+  - Vilde Kaldhusdal
+  - Fredrik Boulund
+  - Maria C Krog
+  - Zahra Bashir
+  - Marica Hamsten
+  - Emma Fransson
+  - Henriette Svarre-Nielsen
+  - Ina Schuppe-Koistinen
   - Lars Engstrand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2020-05-07'
+  link: https://doi.org/g54sg2
+  _cache: ab8e1a523020535b5d3c9714d154a47f1457ef15f6b4d1b24613601d53a2a0fe
+- id: doi:10.1101/2021.03.23.436606
+  title: A comparison of approaches to scaffolding multiple regions along the 16S
+    rRNA gene for improved resolution
+  authors:
+  - Justine W Debelius
+  - Michael Robeson
+  - Luisa W. Hugerth
+  - Fredrik Boulund
+  - Weimin Ye
+  - Lars Engstrand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-03-23'
+  link: https://doi.org/grhgn9
+  _cache: f306fb26dab1ec637729314c0c827b59549a534c7c7ed563d387c6119bb8e2b6
+- id: doi:10.21203/rs.3.rs-696563/v2
+  title: 'The Healthy Female Microbiome Across Body Sites: Effect of Hormonal Contraceptives
+    and the Menstrual Cycle'
+  authors:
+  - Maria Christine Krog
+  - Luisa W Hugerth
+  - Emma Fransson
+  - Zahra Bashir
+  - Anders Nyboe Andersen
+  - Gabriella Edfeldt
+  - Lars Engstrand
+  - Ina Schuppe-Koistinen
+  - Henriette Svarre Nielsen
+  publisher: Research Square Platform LLC
+  date: '2021-08-30'
+  link: https://doi.org/g54shc
+  _cache: 73c08f066816612c5a1b23083f629fdc180edbb8c8e811356898d66f38be6176
+- id: doi:10.1093/humrep/deac094
+  title: 'The healthy female microbiome across body sites: effect of hormonal contraceptives
+    and the menstrual cycle'
+  authors:
+  - Maria Christine Krog
+  - Luisa W Hugerth
+  - Emma Fransson
+  - Zahra Bashir
+  - Anders Nyboe Andersen
+  - Gabriella Edfeldt
+  - Lars Engstrand
+  - Ina Schuppe-Koistinen
+  - Henriette Svarre Nielsen
+  publisher: Human Reproduction
+  date: '2022-05-11'
+  link: https://doi.org/gp5f25
+  _cache: ed50d543cfa628ce23e2d963c70bf31027ccb2062a1aeb2c8c350fa5f4687a93
+- id: doi:10.21203/rs.3.rs-696563/v1
+  title: 'The Healthy Female Microbiome Across Body Sites: Effect of Hormonal Contraceptives
+    and the Menstrual Cycle'
+  authors:
+  - Maria Christine Krog
+  - Luisa W Hugerth
+  - Emma Fransson
+  - Zahra Bashir
+  - Anders Nyboe Andersen
+  - Gabriella Edfeldt
+  - Lars Engstrand
+  - Henriette Svarre Nielsen
+  - Ina Schuppe-Koistinen
+  publisher: Research Square Platform LLC
+  date: '2021-07-14'
+  link: https://doi.org/g54shr
+  _cache: d49d979f969ef2a263970ff0626832ac5b258565e567ac42070f33a0e7869b6a
+- id: doi:10.1038/s41598-020-57468-y
+  title: Evidence of altered mucosa-associated and fecal microbiota composition in
+    patients with Irritable Bowel Syndrome
+  authors:
+  - Johanna Sundin
+  - Imran Aziz
+  - Sofia Nordlander
+  - Annikka Polster
+  - Yue O. O. Hu
+  - Luisa W. Hugerth
+  - Alexandra A. L. Pennhag
+  - Lars Engstrand
+  - "Hans T\xF6rnblom"
+  - "Magnus Simr\xE9n"
+  - "Lena \xD6hman"
+  publisher: Scientific Reports
+  date: '2020-01-17'
+  link: https://doi.org/gjf8cw
+  _cache: 5c70bf1ce800cca53109d8a863fca9b2f91a4b9f01d0c73599e4a37b20fe97e6
+- id: doi:10.1038/s42003-020-01214-7
+  title: Genome sequence of segmented filamentous bacteria present in the human intestine
+  authors:
+  - Hans Jonsson
+  - Luisa W. Hugerth
+  - John Sundh
+  - Eva Lundin
   - Anders F. Andersson
-  publisher: Applied and Environmental Microbiology
-  date: '2014-08-15'
-  link: https://doi.org/f22fj8
-  _cache: e23b53ffc1c2bd8f0f6cec9367ec9f0772d2a1bf13906050a4e0b11db1e0daa3
-- id: doi:10.3389/fmicb.2017.01561
-  title: 'Analysing Microbial Community Composition through Amplicon Sequencing: From
-    Sampling to Hypothesis Testing'
+  publisher: Communications Biology
+  date: '2020-09-04'
+  link: https://doi.org/gjbb58
+  _cache: 7fb3762be81448bf94bea3b9bd8ca2da228a1fe8573492592fd81be18e02b614
+- id: doi:10.1111/nph.18342
+  title: Elevation and plant species identity jointly shape a diverse arbuscular mycorrhizal
+    fungal community in the High Arctic
+  authors:
+  - Pil U. Rasmussen
+  - Nerea Abrego
+  - Tomas Roslin
+  - "Maarja \xD6pik"
+  - "Siim\u2010Kaarel Sepp"
+  - F. Guillaume Blanchet
+  - Tea Huotari
+  - Luisa W. Hugerth
+  - Ayco J. M. Tack
+  publisher: New Phytologist
+  date: '2022-07-15'
+  link: https://doi.org/gqqdhv
+  _cache: 3fa92bcb9a8dc60d6f690022c8f08fa2c9ee89d768df0ea4c35525721cec9c20
+- id: doi:10.21203/rs.3.rs-4880585/v1
+  title: 'SARS-CoV-2 wastewater surveillance at the Arlanda airport and Stockholm
+    city during spring 2023: a comparison of variant distribution at different sectoral
+    levels from aircraft, airport region to city wastewater treatment plants'
+  authors:
+  - Zeynep Cetecioglu Gurol
+  - Mariel Perez-Zabaleta
+  - Carlo Berg
+  - Isaac Owusu-Agyeman
+  - Ayda Kiyar
+  - Neus Latorre-Margalef
+  - Helene Botnen
+  - "Caroline Sch\xF6nning"
+  - Luisa Hugerth
+  publisher: Springer Science and Business Media LLC
+  date: '2024-08-16'
+  link: https://doi.org/g54sh8
+  _cache: 7a46b50fb7afcb85514f9b51574fdfbfdda72f74713a77bb64eea5347c79f1c7
+- id: doi:10.1101/2023.06.02.543379
+  title: 'Defining Vaginal Community Dynamics: daily microbiome transitions, the role
+    of menstruation, bacteriophages and bacterial genes'
   authors:
   - Luisa W. Hugerth
-  - Anders F. Andersson
-  publisher: Frontiers in Microbiology
-  date: '2017-09-04'
-  link: https://doi.org/gcjn2v
-  _cache: 4e984d6c6c49faf3edde0f815aa98df576e908c60586436d552ccb265154ee7c
-- id: doi:10.3389/fmicb.2017.00738
-  title: Colonization and Succession within the Human Gut Microbiome by Archaea, Bacteria,
-    and Microeukaryotes during the First Year of Life
+  - Maria Christine Krog
+  - Kilian Vomstein
+  - Juan Du
+  - Zahra Bashir
+  - Vilde Kaldhusdal
+  - Emma Fransson
+  - Lars Engstrand
+  - Henriette Svarre Nielsen
+  - Ina Schuppe-Koistinen
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-06-02'
+  link: https://doi.org/g54sjg
+  _cache: 82bc9f1b248167e01e3c8535679fc00bd8e18932c7f1eb0d88a68c5915ae2ad4
+- id: doi:10.1093/hropen/hoac015
+  title: 'The microbiome in reproductive health: protocol for a systems biology approach
+    using a prospective, observational study design'
   authors:
-  - Linda Wampach
-  - Anna Heintz-Buschart
-  - Angela Hogan
-  - Emilie E. L. Muller
-  - Shaman Narayanasamy
-  - Cedric C. Laczny
+  - Maria Christine Krog
+  - "Mette Elkj\xE6r Madsen"
+  - Sofie Bliddal
+  - Zahra Bashir
+  - "Laura Emilie Vex\xF8"
+  - Dorthe Hartwell
+  - Luisa W Hugerth
+  - Emma Fransson
+  - Marica Hamsten
+  - Fredrik Boulund
+  - Kristin Wannerberger
+  - Lars Engstrand
+  - Ina Schuppe-Koistinen
+  - Henriette Svarre Nielsen
+  publisher: Human Reproduction Open
+  date: '2022-01-01'
+  link: https://doi.org/gp4mfp
+  _cache: 35d95f07761d061ae7b46b9441c958030ba3eac355401ec5ab6c854bcb91f0b4
+- id: doi:10.1128/msphere.00448-20
+  title: "Assessment of\n            <i>In Vitro</i>\n            and\n          \
+    \  <i>In Silico</i>\n            Protocols for Sequence-Based Characterization\
+    \ of the Human Vaginal Microbiome"
+  authors:
   - Luisa W. Hugerth
-  - Lutz Bindl
-  - Jean Bottu
-  - Anders F. Andersson
-  - Carine de Beaufort
-  - Paul Wilmes
-  publisher: Frontiers in Microbiology
-  date: '2017-05-02'
-  link: https://doi.org/f99p8j
-  _cache: 5f0594f1a99b7b734b54e4f90d0f1c1ab931d532e6c9c615a9dd742c814ee5b7
+  - Marcela Pereira
+  - Yinghua Zha
+  - Maike Seifert
+  - Vilde Kaldhusdal
+  - Fredrik Boulund
+  - Maria C. Krog
+  - Zahra Bashir
+  - Marica Hamsten
+  - Emma Fransson
+  - Henriette Svarre Nielsen
+  - Ina Schuppe-Koistinen
+  - Lars Engstrand
+  publisher: mSphere
+  date: '2020-12-23'
+  link: https://doi.org/gh9b63
+  _cache: de322c2320e92ae3034a57e7da80a2938c56460ce02fc86cf5845b31d9e0e80a
