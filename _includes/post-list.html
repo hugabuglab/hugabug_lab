@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <header class="post-header">
+      <p class="meta pull-right">{{ site.posts.first.date | date: "%b %-d, %Y" }}</p>	
+      <h3>{{ site.posts.first.title }}</h3>
+      <hr />
+    </header>
+    <article class="post-content">
+      {{ site.posts.first.content }}
+    </article>
+  </div>
+
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <h4>News &amp; Updates</h4>
+    <div class="list-group" style="margin-bottom:0px;">
+      {% for post in site.posts limit:5 %}
+        <a href="{{ post.url | relative_url }}" class="list-group-item {% if forloop.first %}active{% endif %}">
+          <h4 class="list-group-item-heading"><small class="pull-right">{{ post.date | date: "%d %b %Y" }}</small>{{ post.title }}</h4>
+          <p class="list-group-item-text">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+        </a>
+      {% endfor %}
+    </div>
+    <br />
+    <div class="pull-left"><a href="{{ 'feed.xml' | relative_url }}" class="btn btn-warning btn-xs">Subscribe RSS</a></div>
+    <div class="pull-right"><a href="{{ 'blog' | relative_url }}">View Full Archive <i class="glyphicon glyphicon-arrow-right"></i></a></div>
+  </div>
+</div>

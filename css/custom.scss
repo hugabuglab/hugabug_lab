@@ -1,0 +1,129 @@
+.news-feed {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+    h2 {
+.news-item {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+      color: #6c757d;
+.news-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+    }
+.news-item h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.4em;
+  color: #333;
+}
+  background-color: #f8f9fa;
+.news-item .date {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  color: #999;
+  font-size: 0.9em;
+}
+    background-color: #e9ecef;
+.news-item p {
+  margin-top: 10px;
+  color: #666;
+}
+  }
+.feed-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.rss-button, .archive-button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rss-button {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.archive-button {
+  color: #5bc0de;
+}
+
+.post-list {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-excerpt {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.post-excerpt:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.post-excerpt h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.post-excerpt .date {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  color: #999;
+  font-size: 0.9em;
+}
+
+.list-group-item {
+  &.active {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    color: #333;
+  }
+  
+  &:hover {
+    background-color: #e8e8e8;
+  }
+}
+
+.list-group-item-heading {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.list-group-item-text {
+  color: #666;
+}
+
+.btn-warning {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  color: white;
+}
+
+.glyphicon-arrow-right {
+  margin-left: 5px;
+}
