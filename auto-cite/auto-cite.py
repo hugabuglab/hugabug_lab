@@ -1,11 +1,25 @@
-from util import *
+import sys
+import os
+
+# Get absolute path to project root
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(PROJECT_ROOT)
+
+from util import log, load_data, cite_with_manubot
 from importlib import import_module
 from dict_hash import sha256
+import yaml
+
+# Debug logging
+log(f"Project root: {PROJECT_ROOT}", 2)
 
 # config info for input/output files and plugins
 config = {}
 try:
-    config = load_data("../_config.yaml", type_check=False).get("auto-cite")
+    config_path = os.path.join(PROJECT_ROOT, "_config.yaml")
+    log(f"Looking for config at: {config_path}", 2)
+    
+    config = load_data(config_path, type_check=False).get("auto-cite")
     if not config:
         raise Exception("Couldn't find auto-cite key in config")
 except Exception as message:
@@ -28,15 +42,19 @@ for plugin in config.get("plugins", []):
 
     # loop through plugin input files
     for file in files:
+        # Convert to absolute path
+        abs_file = os.path.join(PROJECT_ROOT, file)
+        log(f"Looking for file at: {abs_file}", 2)
+
         # show progress
         log(file, 2)
 
         # get data in file
         data = []
         try:
-            data = load_data(file)
+            data = load_data(abs_file)
         except Exception as message:
-            log(message, 3, "red")
+            log(f"Error loading file {abs_file}: {message}", 3, "red")
             exit(1)
 
         # run plugin
@@ -52,59 +70,53 @@ for plugin in config.get("plugins", []):
 
 log("Generating citations for sources")
 
-# load existing citations
+# Initialize citations list
 citations = []
-try:
-    citations = load_data(config["output"])
-except Exception as message:
-    log(message, 2, "yellow")
 
-# list of new citations to overwrite existing citations
-new_citations = []
+log("GENERATING CITATIONS FOR SOURCES")
 
-# go through sources
+# Loop through sources and generate citations
 for index, source in enumerate(sources):
-    # show progress
-    log(f"Source {index + 1} of {len(sources)} - {source.get('id', 'No ID')}", 2)
+    log(f"Source {index + 1} of {len(sources)} - {source.get('id', '-')}")
+    
+    try:
+        # Generate citation using Manubot
+        log("Using Manubot to generate new citation", 2)
+        citation = cite_with_manubot(source)
+        
+        # Add source metadata to citation
+        citation.update(
+            {key: value for key, value in source.items() if not key.startswith("_")}
+        )
+        
+        # Add citation to list
+        citations.append(citation)
+        log(f"Added citation for {source.get('id', '-')}", 2, "green")
+        
+    except Exception as e:
+        log(f"Error generating citation for {source.get('id', '-')}: {e}", 3, "red")
+        continue
 
-    # new citation for source
-    new_citation = {}
+log("EXPORTING CITATIONS")
 
-    # find same source in existing citations
-    cached = get_cached(source, citations)
+# Get output path from config
+output_file = config.get("output", "_data/citations.yaml")
+output_path = os.path.join(PROJECT_ROOT, output_file)
 
-    if cached:
-        # use existing citation to save time
-        log("Using existing citation", 3)
-        new_citation = cached
-
-    elif source.get("id", "").strip():
-        # use Manubot to generate new citation
-        log("Using Manubot to generate new citation", 3)
-        try:
-            new_citation = cite_with_manubot(source)
-        except Exception as message:
-            log(message, 3, "red")
-            exit(1)
-    else:
-        # pass source through untouched
-        log("Passing source through", 3)
-
-    # merge in properties from input source
-    new_citation.update(source)
-    # ensure date in proper format for correct date sorting
-    new_citation["date"] = clean_date(new_citation.get("date"))
-
-    # add new citation to list
-    new_citations.append(new_citation)
-
-log("Exporting citations")
-
-# save new citations
 try:
-    save_data(config["output"], new_citations)
-except Exception as message:
-    log(message, 2, "red")
+    # Create _data directory if it doesn't exist
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    
+    # Add header comment to citations file
+    header = "# DO NOT EDIT, GENERATED AUTOMATICALLY FROM SOURCES.YAML (AND ELSEWHERE)\n"
+    header += "# See https://github.com/greenelab/lab-website-template/wiki/Citations\n\n"
+    
+    # Write citations to file
+    with open(output_path, 'w') as f:
+        f.write(header)
+        yaml.dump(citations, f, default_flow_style=False, sort_keys=False)
+    
+    log(f"Successfully wrote {len(citations)} citations to {output_path}", 2, "green")
+except Exception as e:
+    log(f"Error writing citations to {output_path}: {e}", 3, "red")
     exit(1)
-
-log(f"Exported {len(new_citations)} citations", 2, "green")

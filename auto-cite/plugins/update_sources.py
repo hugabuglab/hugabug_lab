@@ -58,6 +58,7 @@ def update_sources_yaml(orcids, output_file='_data/sources.yaml'):
 # List of ORCIDs to search for
 orcids = [
     "0000-0001-5432-1764",  # Luisa W. Hugerth's ORCID
+    "0000-0003-1340-9123",  # Faruk Dube's ORCID
     # Add more ORCIDs here
 ]
 

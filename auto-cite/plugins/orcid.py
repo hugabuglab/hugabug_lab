@@ -1,5 +1,8 @@
 from urllib.request import Request, urlopen
 import json
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from util import *
 
 
