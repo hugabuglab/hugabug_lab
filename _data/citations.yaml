@@ -1,35 +1,37 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM SOURCES.YAML (AND ELSEWHERE)
 # See https://github.com/greenelab/lab-website-template/wiki/Citations
 
-- id: doi:10.1111/nph.18342
-  title: Elevation and plant species identity jointly shape a diverse arbuscular mycorrhizal
-    fungal community in the High Arctic
+- id: doi:10.1038/s41598-019-53599-z
+  title: Effects of sampling strategy and DNA extraction on human skin microbiome
+    investigations
   authors:
-  - Pil U. Rasmussen
-  - Nerea Abrego
-  - Tomas Roslin
-  - "Maarja \xD6pik"
-  - "Siim\u2010Kaarel Sepp"
-  - F. Guillaume Blanchet
-  - Tea Huotari
-  - Luisa W. Hugerth
-  - Ayco J. M. Tack
-  publisher: New Phytologist
-  date: 2022-7-15
-  link: https://doi.org/gqqdhv
-- id: doi:10.1101/2021.03.23.436606
-  title: A comparison of approaches to scaffolding multiple regions along the 16S
-    rRNA gene for improved resolution
-  authors:
-  - Justine W Debelius
-  - Michael Robeson
-  - Luisa W. Hugerth
+  - Rie Dybboe Bjerre
+  - Luisa Warchavchik Hugerth
   - Fredrik Boulund
-  - Weimin Ye
+  - Maike Seifert
+  - Jeanne Duus Johansen
   - Lars Engstrand
-  publisher: Cold Spring Harbor Laboratory
-  date: 2021-3-23
-  link: https://doi.org/grhgn9
+  publisher: Scientific Reports
+  date: '2019-11-21'
+  link: https://doi.org/ggx5pt
+- id: doi:10.1038/s41598-020-57468-y
+  title: Evidence of altered mucosa-associated and fecal microbiota composition in
+    patients with Irritable Bowel Syndrome
+  authors:
+  - Johanna Sundin
+  - Imran Aziz
+  - Sofia Nordlander
+  - Annikka Polster
+  - Yue O. O. Hu
+  - Luisa W. Hugerth
+  - Alexandra A. L. Pennhag
+  - Lars Engstrand
+  - "Hans T\xF6rnblom"
+  - "Magnus Simr\xE9n"
+  - "Lena \xD6hman"
+  publisher: Scientific Reports
+  date: 2020-1-17
+  link: https://doi.org/gjf8cw
 - id: doi:10.1038/s42003-020-01214-7
   title: Genome sequence of segmented filamentous bacteria present in the human intestine
   authors:
@@ -41,76 +43,6 @@
   publisher: Communications Biology
   date: 2020-9-4
   link: https://doi.org/gjbb58
-- id: doi:10.1101/2023.06.02.543379
-  title: 'Defining Vaginal Community Dynamics: daily microbiome transitions, the role
-    of menstruation, bacteriophages and bacterial genes'
-  authors:
-  - Luisa W. Hugerth
-  - Maria Christine Krog
-  - Kilian Vomstein
-  - Juan Du
-  - Zahra Bashir
-  - Vilde Kaldhusdal
-  - Emma Fransson
-  - Lars Engstrand
-  - Henriette Svarre Nielsen
-  - Ina Schuppe-Koistinen
-  publisher: Cold Spring Harbor Laboratory
-  date: 2023-6-2
-  link: https://doi.org/g54sjg
-- id: doi:10.1101/2020.05.05.079996
-  title: Optimal protocols for sequence-based characterization of the human vaginal
-    microbiome
-  authors:
-  - Luisa W. Hugerth
-  - Marcela Pereira
-  - Yinghua Zha
-  - Maike Seifert
-  - Vilde Kaldhusdal
-  - Fredrik Boulund
-  - Maria C Krog
-  - Zahra Bashir
-  - Marica Hamsten
-  - Emma Fransson
-  - Henriette Svarre-Nielsen
-  - Ina Schuppe-Koistinen
-  - Lars Engstrand
-  publisher: Cold Spring Harbor Laboratory
-  date: 2020-5-7
-  link: https://doi.org/g54sg2
-- id: doi:10.21203/rs.3.rs-696563/v1
-  title: 'The Healthy Female Microbiome Across Body Sites: Effect of Hormonal Contraceptives
-    and the Menstrual Cycle'
-  authors:
-  - Maria Christine Krog
-  - Luisa W Hugerth
-  - Emma Fransson
-  - Zahra Bashir
-  - Anders Nyboe Andersen
-  - Gabriella Edfeldt
-  - Lars Engstrand
-  - Henriette Svarre Nielsen
-  - Ina Schuppe-Koistinen
-  publisher: Research Square Platform LLC
-  date: 2021-7-14
-  link: https://doi.org/g54shr
-- id: doi:10.21203/rs.3.rs-4880585/v1
-  title: 'SARS-CoV-2 wastewater surveillance at the Arlanda airport and Stockholm
-    city during spring 2023: a comparison of variant distribution at different sectoral
-    levels from aircraft, airport region to city wastewater treatment plants'
-  authors:
-  - Zeynep Cetecioglu Gurol
-  - Mariel Perez-Zabaleta
-  - Carlo Berg
-  - Isaac Owusu-Agyeman
-  - Ayda Kiyar
-  - Neus Latorre-Margalef
-  - Helene Botnen
-  - "Caroline Sch\xF6nning"
-  - Luisa Hugerth
-  publisher: Springer Science and Business Media LLC
-  date: 2024-8-16
-  link: https://doi.org/g54sh8
 - id: doi:10.1093/hropen/hoac015
   title: 'The microbiome in reproductive health: protocol for a systems biology approach
     using a prospective, observational study design'
@@ -132,24 +64,116 @@
   publisher: Human Reproduction Open
   date: 2022-1-1
   link: https://doi.org/gp4mfp
-- id: doi:10.1038/s41598-020-57468-y
-  title: Evidence of altered mucosa-associated and fecal microbiota composition in
-    patients with Irritable Bowel Syndrome
+- id: doi:10.1093/humrep/deac094
+  title: 'The healthy female microbiome across body sites: effect of hormonal contraceptives
+    and the menstrual cycle'
   authors:
-  - Johanna Sundin
-  - Imran Aziz
-  - Sofia Nordlander
-  - Annikka Polster
-  - Yue O. O. Hu
-  - Luisa W. Hugerth
-  - Alexandra A. L. Pennhag
+  - Maria Christine Krog
+  - Luisa W Hugerth
+  - Emma Fransson
+  - Zahra Bashir
+  - Anders Nyboe Andersen
+  - Gabriella Edfeldt
   - Lars Engstrand
-  - "Hans T\xF6rnblom"
-  - "Magnus Simr\xE9n"
-  - "Lena \xD6hman"
-  publisher: Scientific Reports
-  date: 2020-1-17
-  link: https://doi.org/gjf8cw
+  - Ina Schuppe-Koistinen
+  - Henriette Svarre Nielsen
+  publisher: Human Reproduction
+  date: 2022-5-11
+  link: https://doi.org/gp5f25
+- id: doi:10.1101/2020.05.05.079996
+  title: Optimal protocols for sequence-based characterization of the human vaginal
+    microbiome
+  authors:
+  - Luisa W. Hugerth
+  - Marcela Pereira
+  - Yinghua Zha
+  - Maike Seifert
+  - Vilde Kaldhusdal
+  - Fredrik Boulund
+  - Maria C Krog
+  - Zahra Bashir
+  - Marica Hamsten
+  - Emma Fransson
+  - Henriette Svarre-Nielsen
+  - Ina Schuppe-Koistinen
+  - Lars Engstrand
+  publisher: Cold Spring Harbor Laboratory
+  date: 2020-5-7
+  link: https://doi.org/g54sg2
+- id: doi:10.1101/2021.03.23.436606
+  title: A comparison of approaches to scaffolding multiple regions along the 16S
+    rRNA gene for improved resolution
+  authors:
+  - Justine W Debelius
+  - Michael Robeson
+  - Luisa W. Hugerth
+  - Fredrik Boulund
+  - Weimin Ye
+  - Lars Engstrand
+  publisher: Cold Spring Harbor Laboratory
+  date: 2021-3-23
+  link: https://doi.org/grhgn9
+- id: doi:10.1101/2023.06.02.543379
+  title: 'Defining Vaginal Community Dynamics: daily microbiome transitions, the role
+    of menstruation, bacteriophages and bacterial genes'
+  authors:
+  - Luisa W. Hugerth
+  - Maria Christine Krog
+  - Kilian Vomstein
+  - Juan Du
+  - Zahra Bashir
+  - Vilde Kaldhusdal
+  - Emma Fransson
+  - Lars Engstrand
+  - Henriette Svarre Nielsen
+  - Ina Schuppe-Koistinen
+  publisher: Cold Spring Harbor Laboratory
+  date: 2023-6-2
+  link: https://doi.org/g54sjg
+- id: doi:10.1101/2023.12.07.570202
+  title: Gene co-expression network analysis reveal core responsive genes in<i>Parascaris
+    univalens</i>tissues following ivermectin exposure
+  authors:
+  - Faruk Dube
+  - Nicolas Delhomme
+  - Frida Martin
+  - Andrea Hinas
+  - "Magnus \xC5brink"
+  - "Staffan Sv\xE4rd"
+  - "Eva Tyd\xE9n"
+  publisher: Cold Spring Harbor Laboratory
+  date: 2023-12-8
+  link: https://doi.org/g8rf63
+- id: doi:10.1101/286526
+  title: A comprehensive automated pipeline for human microbiome sampling, 16S rRNA
+    gene sequencing and bioinformatics processing
+  authors:
+  - LW Hugerth
+  - M Seifert
+  - AAL Pennhag
+  - J Du
+  - MC Hamsten
+  - I Schuppe-Koistinen
+  - L Engstrand
+  publisher: Cold Spring Harbor Laboratory
+  date: 2018-3-21
+  link: https://doi.org/gkwxwx
+- id: doi:10.1111/nph.18342
+  title: Elevation and plant species identity jointly shape a diverse arbuscular mycorrhizal
+    fungal community in the High Arctic
+  authors:
+  - Pil U. Rasmussen
+  - Nerea Abrego
+  - Tomas Roslin
+  - "Maarja \xD6pik"
+  - "Siim\u2010Kaarel Sepp"
+  - F. Guillaume Blanchet
+  - Tea Huotari
+  - Luisa W. Hugerth
+  - Ayco J. M. Tack
+  publisher: New Phytologist
+  date: 2022-7-15
+  link: https://doi.org/gqqdhv
 - id: doi:10.1128/msphere.00448-20
   title: "Assessment of\n            <i>In Vitro</i>\n            and\n          \
     \  <i>In Silico</i>\n            Protocols for Sequence-Based Characterization\
@@ -171,9 +195,126 @@
   publisher: mSphere
   date: '2020-12-23'
   link: https://doi.org/gh9b63
-- id: doi:10.1093/humrep/deac094
-  title: 'The healthy female microbiome across body sites: effect of hormonal contraceptives
-    and the menstrual cycle'
+- id: doi:10.1136/gutjnl-2019-318717
+  title: No distinct microbiome signature of irritable bowel syndrome found in a Swedish
+    random population
+  authors:
+  - Luisa W Hugerth
+  - Anna Andreasson
+  - Nicholas J Talley
+  - Anna M Forsberg
+  - "Lars Kjellstr\xF6m"
+  - Peter Thelin Schmidt
+  - Lars Agreus
+  - Lars Engstrand
+  publisher: Gut
+  date: '2019-10-10'
+  link: https://doi.org/gh9p3f
+- id: doi:10.1186/s12866-021-02260-9
+  title: "Benzylpenicillin-producing Trichophyton erinacei and methicillin resistant\
+    \ Staphylococcus aureus carrying the mecC gene on European hedgehogs \u2013 A\
+    \ pilot-study"
+  authors:
+  - Faruk Dube
+  - "Robert S\xF6derlund"
+  - Matilda Lampinen Salomonsson
+  - Karin Troell
+  - "Stefan B\xF6rjesson"
+  publisher: BMC Microbiology
+  date: 2021-7-15
+  link: https://doi.org/gmph99
+- id: doi:10.1186/s13071-020-04212-0
+  title: Transcriptional responses in Parascaris univalens after in vitro exposure
+    to ivermectin, pyrantel citrate and thiabendazole
+  authors:
+  - Frida Martin
+  - Faruk Dube
+  - "Oskar Karlsson Lindsj\xF6"
+  - "Matth\xEDas Eydal"
+  - "Johan H\xF6glund"
+  - "Tomas F. Bergstr\xF6m"
+  - "Eva Tyd\xE9n"
+  publisher: Parasites &amp; Vectors
+  date: 2020-7-9
+  link: https://doi.org/gjcv5p
+- id: doi:10.1186/s13071-022-05260-4
+  title: 'Ivermectin-induced gene expression changes in adult Parascaris univalens
+    and Caenorhabditis elegans: a comparative approach to study anthelminthic metabolism
+    and resistance in vitro'
+  authors:
+  - Faruk Dube
+  - Andrea Hinas
+  - Shweta Roy
+  - Frida Martin
+  - "Magnus \xC5brink"
+  - "Staffan Sv\xE4rd"
+  - "Eva Tyd\xE9n"
+  publisher: Parasites &amp; Vectors
+  date: 2022-5-5
+  link: https://doi.org/gp8j22
+- id: doi:10.1371/journal.pone.0285262
+  title: 'Transcriptomics of ivermectin response in Caenorhabditis elegans: Integrating
+    abamectin quantitative trait loci and comparison to the Ivermectin-exposed DA1316
+    strain'
+  authors:
+  - Faruk Dube
+  - Andrea Hinas
+  - Nicolas Delhomme
+  - "Magnus \xC5brink"
+  - "Staffan Sv\xE4rd"
+  - "Eva Tyd\xE9n"
+  publisher: PLOS ONE
+  date: 2023-5-4
+  link: https://doi.org/gsdx6x
+- id: doi:10.1371/journal.pone.0298039
+  title: Gene co-expression network analysis reveal core responsive genes in Parascaris
+    univalens tissues following ivermectin exposure
+  authors:
+  - Faruk Dube
+  - Nicolas Delhomme
+  - Frida Martin
+  - Andrea Hinas
+  - "Magnus \xC5brink"
+  - "Staffan Sv\xE4rd"
+  - "Eva Tyd\xE9n"
+  publisher: PLOS ONE
+  date: 2024-2-15
+  link: https://doi.org/gtrsg7
+- id: doi:10.21203/rs.3.rs-1281039/v1
+  title: Ivermectin-induced Gene Expression Changes in Adult Parascaris Univalens
+    and Caenorhabditis Elegans- a Comparative Approach to Study Anthelminthic Metabolism
+    and Resistance in Vitro
+  authors:
+  - Faruk Dube
+  - Andrea Hinas
+  - Shweta Roy
+  - Frida Martin
+  - "Magnus \xC5brink"
+  - "Staffan Sv\xE4rd"
+  - "Eva Tyd\xE9n"
+  publisher: Research Square Platform LLC
+  date: 2022-1-28
+  link: https://doi.org/g8rf62
+- id: doi:10.21203/rs.3.rs-4880585/v1
+  title: 'SARS-CoV-2 wastewater surveillance at the Arlanda airport and Stockholm
+    city during spring 2023: a comparison of variant distribution at different sectoral
+    levels from aircraft, airport region to city wastewater treatment plants'
+  authors:
+  - Zeynep Cetecioglu Gurol
+  - Mariel Perez-Zabaleta
+  - Carlo Berg
+  - Isaac Owusu-Agyeman
+  - Ayda Kiyar
+  - Neus Latorre-Margalef
+  - Helene Botnen
+  - "Caroline Sch\xF6nning"
+  - Luisa Hugerth
+  publisher: Springer Science and Business Media LLC
+  date: 2024-8-16
+  link: https://doi.org/g54sh8
+- id: doi:10.21203/rs.3.rs-696563/v1
+  title: 'The Healthy Female Microbiome Across Body Sites: Effect of Hormonal Contraceptives
+    and the Menstrual Cycle'
   authors:
   - Maria Christine Krog
   - Luisa W Hugerth
@@ -182,11 +323,11 @@
   - Anders Nyboe Andersen
   - Gabriella Edfeldt
   - Lars Engstrand
-  - Ina Schuppe-Koistinen
   - Henriette Svarre Nielsen
-  publisher: Human Reproduction
-  date: 2022-5-11
-  link: https://doi.org/gp5f25
+  - Ina Schuppe-Koistinen
+  publisher: Research Square Platform LLC
+  date: 2021-7-14
+  link: https://doi.org/g54shr
 - id: doi:10.21203/rs.3.rs-696563/v2
   title: 'The Healthy Female Microbiome Across Body Sites: Effect of Hormonal Contraceptives
     and the Menstrual Cycle'
@@ -203,49 +344,21 @@
   publisher: Research Square Platform LLC
   date: 2021-8-30
   link: https://doi.org/g54shc
-- id: doi:10.1371/journal.pone.0285262
-  title: 'Transcriptomics of ivermectin response in Caenorhabditis elegans: Integrating
-    abamectin quantitative trait loci and comparison to the Ivermectin-exposed DA1316
-    strain'
+- id: doi:10.3389/fmicb.2023.1205797
+  title: Intestinal colonization with Campylobacter jejuni affects broiler gut microbiota
+    composition but is not inhibited by daily intake of Lactiplantibacillus plantarum
   authors:
+  - "Eli\u0161ka Vale\u010Dkov\xE1"
+  - Li Sun
+  - Helen Wang
   - Faruk Dube
-  - Andrea Hinas
-  - Nicolas Delhomme
-  - "Magnus \xC5brink"
-  - "Staffan Sv\xE4rd"
-  - "Eva Tyd\xE9n"
-  publisher: PLOS ONE
-  date: 2023-5-4
-  link: https://doi.org/gsdx6x
-- id: doi:10.21203/rs.3.rs-1281039/v1
-  title: Ivermectin-induced Gene Expression Changes in Adult Parascaris Univalens
-    and Caenorhabditis Elegans- a Comparative Approach to Study Anthelminthic Metabolism
-    and Resistance in Vitro
-  authors:
-  - Faruk Dube
-  - Andrea Hinas
-  - Shweta Roy
-  - Frida Martin
-  - "Magnus \xC5brink"
-  - "Staffan Sv\xE4rd"
-  - "Eva Tyd\xE9n"
-  publisher: Research Square Platform LLC
-  date: 2022-1-28
-  link: https://doi.org/g8rf62
-- id: doi:10.1101/2023.12.07.570202
-  title: Gene co-expression network analysis reveal core responsive genes in<i>Parascaris
-    univalens</i>tissues following ivermectin exposure
-  authors:
-  - Faruk Dube
-  - Nicolas Delhomme
-  - Frida Martin
-  - Andrea Hinas
-  - "Magnus \xC5brink"
-  - "Staffan Sv\xE4rd"
-  - "Eva Tyd\xE9n"
-  publisher: Cold Spring Harbor Laboratory
-  date: 2023-12-8
-  link: https://doi.org/g8rf63
+  - Emma Ivarsson
+  - Kamyar Mogodiniyai Kasmaei
+  - "Patrik Ellstr\xF6m"
+  - Helena Wall
+  publisher: Frontiers in Microbiology
+  date: 2023-7-28
+  link: https://doi.org/gsnjm2
 - id: doi:10.54612/a.45di2f4mbp
   title: 'A transcriptomic tale of two worms : Evaluating Caenorhabditis elegans as
     a model for Parascaris univalens in drug resistance studies'
@@ -254,32 +367,3 @@
   publisher: Acta Universitatis Agriculturae Sueciae
   date: 2024-1-1
   link: https://doi.org/gtd9mc
-- id: doi:10.1186/s13071-022-05260-4
-  title: 'Ivermectin-induced gene expression changes in adult Parascaris univalens
-    and Caenorhabditis elegans: a comparative approach to study anthelminthic metabolism
-    and resistance in vitro'
-  authors:
-  - Faruk Dube
-  - Andrea Hinas
-  - Shweta Roy
-  - Frida Martin
-  - "Magnus \xC5brink"
-  - "Staffan Sv\xE4rd"
-  - "Eva Tyd\xE9n"
-  publisher: Parasites &amp; Vectors
-  date: 2022-5-5
-  link: https://doi.org/gp8j22
-- id: doi:10.1371/journal.pone.0298039
-  title: Gene co-expression network analysis reveal core responsive genes in Parascaris
-    univalens tissues following ivermectin exposure
-  authors:
-  - Faruk Dube
-  - Nicolas Delhomme
-  - Frida Martin
-  - Andrea Hinas
-  - "Magnus \xC5brink"
-  - "Staffan Sv\xE4rd"
-  - "Eva Tyd\xE9n"
-  publisher: PLOS ONE
-  date: 2024-2-15
-  link: https://doi.org/gtrsg7
