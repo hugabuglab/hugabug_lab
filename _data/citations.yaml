@@ -1,6 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM SOURCES.YAML (AND ELSEWHERE)
 # See https://github.com/greenelab/lab-website-template/wiki/Citations
 
+- id: doi:10.1038/s41467-025-60490-1
+  title: Wastewater surveillance of SARS-CoV-2 from aircraft to citywide monitoring
+  authors:
+  - Mariel Perez-Zabaleta
+  - Carlo Berg
+  - Neus Latorre-Margalef
+  - Isaac Owusu-Agyeman
+  - Ayda Kiyar
+  - Helene Botnen
+  - "Caroline Sch\xF6nning"
+  - Luisa W. Hugerth
+  - Zeynep Cetecioglu
+  publisher: Nature Communications
+  date: 2025-6-2
+  link: https://doi.org/g9p532
 - id: doi:10.1038/s41598-019-53599-z
   title: Effects of sampling strategy and DNA extraction on human skin microbiome
     investigations
@@ -144,6 +159,20 @@
   publisher: Cold Spring Harbor Laboratory
   date: 2023-12-8
   link: https://doi.org/g8rf63
+- id: doi:10.1101/2025.02.28.640766
+  title: Predicting allergy and postpartum depression from an incomplete compositional
+    microbiome
+  authors:
+  - Andrey Shternshis
+  - Bangzhuo Tong
+  - Alkistis Skalkidou
+  - "Carolina W\xE4hlby"
+  - Dave Zachariah
+  - Luisa W. Hugerth
+  - Prashant Singh
+  publisher: Cold Spring Harbor Laboratory
+  date: 2025-3-6
+  link: https://doi.org/g9trds
 - id: doi:10.1101/286526
   title: A comprehensive automated pipeline for human microbiome sampling, 16S rRNA
     gene sequencing and bioinformatics processing
@@ -292,7 +321,7 @@
   - "Magnus \xC5brink"
   - "Staffan Sv\xE4rd"
   - "Eva Tyd\xE9n"
-  publisher: Research Square Platform LLC
+  publisher: Springer Science and Business Media LLC
   date: 2022-1-28
   link: https://doi.org/g8rf62
 - id: doi:10.21203/rs.3.rs-4880585/v1
@@ -325,7 +354,7 @@
   - Lars Engstrand
   - Henriette Svarre Nielsen
   - Ina Schuppe-Koistinen
-  publisher: Research Square Platform LLC
+  publisher: Springer Science and Business Media LLC
   date: 2021-7-14
   link: https://doi.org/g54shr
 - id: doi:10.21203/rs.3.rs-696563/v2
@@ -341,7 +370,7 @@
   - Lars Engstrand
   - Ina Schuppe-Koistinen
   - Henriette Svarre Nielsen
-  publisher: Research Square Platform LLC
+  publisher: Springer Science and Business Media LLC
   date: 2021-8-30
   link: https://doi.org/g54shc
 - id: doi:10.3389/fmicb.2023.1205797

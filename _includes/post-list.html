@@ -1,102 +1,335 @@
-<!-- Styling of the highlighted post -->
+<!-- Enhanced Blog Styling -->
 <style>
-    /* Styling for the text box */
-    .post-box {
-        border: 2px solid #3498db; /* Blue border */
-        background-color: #f0f8ff; /* Light blue background */
+    /* Modern Blog Layout */
+    .blog-container {
+        max-width: 1200px;
+        margin: 0 auto;
         padding: 20px;
-        border-radius: 10px;
-        width: 100%; /* Take full width of the container */
-        max-width: 800px; /* Maximum width */
-        margin: 20px auto;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        font-family: 'Lato', sans-serif; /* Added font for consistency */
+        font-family: 'Lato', sans-serif;
     }
 
-    .post-title {
-        font-size: 24px;
-        font-weight: bold;
-        color: #2c3e50;
-        margin-bottom: 10px;
+    /* Featured Post Styling */
+    .featured-post {
+        background: linear-gradient(135deg, #03a9f4 0%, #01579b 100%);
+        color: white;
+        padding: 40px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        position: relative;
+        overflow: hidden;
     }
 
-    .post-date {
-        font-size: 14px;
-        color: #7f8c8d;
+    .featured-post::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.1"/><circle cx="50" cy="10" r="0.5" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+        pointer-events: none;
+    }
+
+    .featured-post-content {
+        position: relative;
+        z-index: 1;
+    }
+
+    .featured-post .post-title {
+        font-size: 2.5rem;
+        font-weight: 700;
         margin-bottom: 15px;
+        line-height: 1.2;
+        font-family: 'Montserrat', sans-serif;
     }
 
-    .post-content {
-        font-size: 18px;
-        color: #34495e;
-        line-height: 1.6;
+    .featured-post .post-date {
+        font-size: 1rem;
+        opacity: 0.9;
+        margin-bottom: 20px;
+        font-weight: 300;
     }
 
-    .highlight-post-box {
-        padding: 20px;
+    .featured-post .post-content {
+        font-size: 1.2rem;
+        line-height: 1.7;
+        opacity: 0.95;
+    }
+
+    .featured-badge {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        backdrop-filter: blur(10px);
+    }
+
+    /* Posts Grid */
+    .posts-section {
+        margin-top: 40px;
+    }
+
+    .posts-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .posts-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #01579b;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .posts-subtitle {
+        font-size: 1.1rem;
+        color: #424242;
+        font-weight: 300;
+    }
+
+    .posts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 25px;
+        margin-bottom: 40px;
+    }
+
+    .post-card {
+        background: white;
+        border-radius: 15px;
+        padding: 25px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
         border: 1px solid #e0e0e0;
-        border-radius: 10px;
-        background-color: #ffffff;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 100%; /* Take full width of the container */
-        max-width: 1000px; /* Maximum width */
-        margin: 20px auto; /* Center the box */
-        font-family: 'Lato', sans-serif; /* Consistent font */
+        position: relative;
+        overflow: hidden;
     }
 
-    /* <!-- CSS for Hover Effect --> */
-
-    .list-group-item:hover {
-        background-color: #f8f9fa;
-        color: #3498db;
+    .post-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, #03a9f4, #01579b);
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
     }
 
-    .list-group-item:hover h4 {
-        color: #3498db;
+    .post-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    }
+
+    .post-card:hover::before {
+        transform: scaleX(1);
+    }
+
+    .post-card-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #01579b;
+        margin-bottom: 10px;
+        line-height: 1.4;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .post-card-date {
+        font-size: 0.9rem;
+        color: #757575;
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+
+    .post-card-excerpt {
+        font-size: 1rem;
+        color: #424242;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .read-more {
+        color: #03a9f4;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: color 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .read-more:hover {
+        color: #01579b;
+        text-decoration: none;
+    }
+
+    .read-more::after {
+        content: '→';
+        transition: transform 0.3s ease;
+    }
+
+    .read-more:hover::after {
+        transform: translateX(3px);
+    }
+
+    /* Footer Actions */
+    .blog-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+        border-top: 1px solid #e0e0e0;
+        margin-top: 40px;
+    }
+
+    .action-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+    }
+
+    .rss-button {
+        background: linear-gradient(135deg, #03a9f4, #01579b);
+        color: white;
+    }
+
+    .rss-button:hover {
+        background: linear-gradient(135deg, #01579b, #03a9f4);
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(3, 169, 244, 0.3);
+    }
+
+    .archive-button {
+        background: linear-gradient(135deg, #81d4fa, #03a9f4);
+        color: white;
+    }
+
+    .archive-button:hover {
+        background: linear-gradient(135deg, #03a9f4, #81d4fa);
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(129, 212, 250, 0.3);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .blog-container {
+            padding: 15px;
+        }
+
+        .featured-post {
+            padding: 25px;
+        }
+
+        .featured-post .post-title {
+            font-size: 1.8rem;
+        }
+
+        .posts-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .blog-actions {
+            flex-direction: column;
+            gap: 15px;
+            text-align: center;
+        }
+
+        .posts-title {
+            font-size: 2rem;
+        }
+    }
+
+    /* Loading Animation */
+    .post-card {
+        animation: fadeInUp 0.6s ease forwards;
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    .post-card:nth-child(1) { animation-delay: 0.1s; }
+    .post-card:nth-child(2) { animation-delay: 0.2s; }
+    .post-card:nth-child(3) { animation-delay: 0.3s; }
+    .post-card:nth-child(4) { animation-delay: 0.4s; }
+    .post-card:nth-child(5) { animation-delay: 0.5s; }
+
+    @keyframes fadeInUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 </style>
 
-<!-- Text Box to display the first post dynamically -->
-<div class="post-box">
-  <div class="post-title">{{ site.posts.first.title }}</div>
-  <div class="post-date">{{ site.posts.first.date | date: "%B %d, %Y" }}</div>
-  <div class="post-content">
-      {{ site.posts.first.content }}
-  </div>
-</div>
+<div class="blog-container">
+    <!-- Featured Post -->
+    <div class="featured-post">
+        <div class="featured-badge">Latest News</div>
+        <div class="featured-post-content">
+            <div class="post-title">{{ site.posts.first.title }}</div>
+            <div class="post-date">{{ site.posts.first.date | date: "%B %d, %Y" }}</div>
+            <div class="post-content">
+                {{ site.posts.first.content }}
+            </div>
+        </div>
+    </div>
 
-<!-- Now the list of all posts -->
-<div class="col-md-6 col-sm-6 col-xs-12">
-    <!-- Post List Container with New Styling -->
-    <div class="highlight-post-box" style="max-height: 300px; overflow-y: auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 10px; background-color: #ffffff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); font-family: 'Lato', sans-serif;">
-        <!-- Title -->
-        <h3 style="font-weight: bold; color: #333; font-family: 'Montserrat', sans-serif; margin-bottom: 20px; text-align: center;">Posts</h3>
-  
-        <!-- List Group with Post Links -->
-        <div class="list-group" style="margin-bottom: 0;">
-            <!-- Iterate over posts -->
-            {% for post in site.posts limit:5 %}
-                <a href="{{ post.url | relative_url }}" class="list-group-item" style="padding: 15px; border-bottom: 1px solid #f0f0f0; display: flex; align-items: center; transition: background-color 0.3s ease;">
-                    <!-- Post Title and Date -->
-                    <div style="flex-grow: 1;">
-                        <h4 class="list-group-item-heading" style="font-size: 18px; margin: 0 0 5px; color: #333;">
-                            {{ post.title }}
-                            <small class="pull-right" style="color: #888;">{{ post.date | date: "%d %b %Y" }}</small>
-                        </h4>
-                        <p class="list-group-item-text" style="font-size: 14px; color: #666;">
-                            {{ post.excerpt | strip_html | truncate: 100 }}
+    <!-- Posts Section -->
+    <div class="posts-section">
+        <div class="posts-header">
+            <h2 class="posts-title">Recent Updates</h2>
+            <p class="posts-subtitle">Stay up to date with our latest research and achievements</p>
+        </div>
+
+        <div class="posts-grid">
+            {% for post in site.posts limit:6 %}
+                {% if forloop.first == false %}
+                    <div class="post-card">
+                        <h3 class="post-card-title">{{ post.title }}</h3>
+                        <div class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</div>
+                        <p class="post-card-excerpt">
+                            {% if post.excerpt %}
+                                {{ post.excerpt | strip_html | truncate: 120 }}
+                            {% else %}
+                                {{ post.content | strip_html | truncate: 120 }}
+                            {% endif %}
                         </p>
+                        <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
                     </div>
-                </a>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
-  </div>
-  
 
-<!-- Subscribe and View Full Archive Buttons -->
-<br />
-<div style="display: flex; justify-content: space-between; padding: 10px 0;">
-    <a href="{{ 'feed.xml' | relative_url }}" class="btn btn-warning btn-xs">Subscribe RSS</a>
-    <a href="{{ 'blog' | relative_url }}" class="btn btn-primary btn-xs">View Full Archive <i class="glyphicon glyphicon-arrow-right"></i></a>
+    <!-- Footer Actions -->
+    <div class="blog-actions">
+        <a href="{{ 'feed.xml' | relative_url }}" class="action-button rss-button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M6.18 4A8.18 8.18 0 0 1 14.36 12.18c0 4.5-3.68 8.18-8.18 8.18A8.18 8.18 0 0 1 0 12.18C0 7.68 3.68 4 8.18 4m0-4A12.18 12.18 0 0 1 20.36 12.18c0 6.72-5.46 12.18-12.18 12.18A12.18 12.18 0 0 1 0 12.18C0 5.46 5.46 0 12.18 0z"/>
+            </svg>
+            Subscribe RSS
+        </a>
+        <a href="{{ 'blog' | relative_url }}" class="action-button archive-button">
+            View Full Archive
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+            </svg>
+        </a>
+    </div>
 </div>
