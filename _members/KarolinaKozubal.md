@@ -3,7 +3,7 @@ name: Karolina Kozubal
 image: 
 description:
 role: msc
-alumni: false
+alumni: true
 aliases:
   - 
 links:
