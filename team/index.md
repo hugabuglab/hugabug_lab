@@ -9,10 +9,23 @@ nav:
 
 {% include section.html %}
 
+## Current members
 {%
   include list.html
   data="members"
   component="portrait"
+  filters="alumni:false"
+%}
+{:.center}
+
+{% include section.html %}
+
+## Alumni
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="alumni:true"
 %}
 {:.center}
 

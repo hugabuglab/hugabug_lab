@@ -3,6 +3,7 @@ name: Anusha T. Antony
 image: images/Anusha1.jpg
 description: PhD student
 role: phd
+alumni: false
 aliases:
   - Anusha
 links:

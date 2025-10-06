@@ -3,6 +3,7 @@ name: Fatemeh Mohseni
 image: images/Fatemeh.jpg
 description: Master student in Nutrition Science (Biosciences & Nutrition )
 role: msc
+alumni: true
 aliases: 
   - Fatemeh
 links:

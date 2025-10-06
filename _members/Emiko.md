@@ -3,6 +3,7 @@ name: Emiko Yoshida
 image: images/Emiko.jpg
 description: Master's student
 role: msc
+alumni: true
 aliases:
   - Emiko
 links:
