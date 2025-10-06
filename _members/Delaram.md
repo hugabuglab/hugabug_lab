@@ -1,10 +1,11 @@
 ---
 name: Delaram Bameri
 image: images/Delaram.jpg
-description: Dentist (D.D.S), Research Assistant
-role: RA
+description: Dentist (D.D.S), PhD Student
+role: phd
+alumni: false
 aliases:
-  -
+  - Dela
 links:
   email: delaram.bameri1991@gmail.com
   github: https://github.com/dela-bam

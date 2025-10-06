@@ -3,6 +3,7 @@ name: Faruk Dube
 image: images/Faruk.jpg
 description: Postdoctoral researcher
 role: postdoc
+alumni: false
 aliases:
   - Faruk D
 links:

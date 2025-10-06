@@ -3,6 +3,8 @@ name: Sanna Hjalmarsson
 image: images/Sanna.jpg
 description: Master's student
 role: msc
+alumni: true
+
 aliases:
   - Sanna
 links:

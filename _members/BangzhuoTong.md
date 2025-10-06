@@ -3,6 +3,7 @@ name: Bangzhuo Tong (Ben)
 image: images/BangzhuoTong.jpg
 description: PhD Student
 role: phd
+alumni: false
 aliases:
   - Bangzhuo
 links:

@@ -3,6 +3,7 @@ name: Luisa W. Hugerth
 image: images/Luisa.jpg
 description: Assistant Professor
 role: pi
+alumni: false
 aliases:
   - Hugerth LW
 links:
