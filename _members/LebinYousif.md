@@ -1,6 +1,6 @@
 ---
 name: Lebin Yousif
-image: 
+image: images/LebinYousif.jpg
 description: Master's student
 role: msc
 alumni: false
